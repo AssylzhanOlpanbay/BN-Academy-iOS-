@@ -12,6 +12,17 @@
 		BBFF5F152DBD268400E5677A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF5F142DBD268400E5677A /* ViewController.swift */; };
 		BBFF5F1A2DBD268500E5677A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBFF5F192DBD268500E5677A /* Assets.xcassets */; };
 		BBFF5F1D2DBD268500E5677A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BBFF5F1C2DBD268500E5677A /* Base */; };
+		BBFF5F252DBD358000E5677A /* WelcomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF5F242DBD358000E5677A /* WelcomePageView.swift */; };
+		BBFF5F272DBD359900E5677A /* WelcomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF5F262DBD359900E5677A /* WelcomePageController.swift */; };
+		BBFF5F2A2DBD365200E5677A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BBFF5F292DBD365200E5677A /* SnapKit */; };
+		BBFF5F2C2DC3908300E5677A /* LogInPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF5F2B2DC3908300E5677A /* LogInPageController.swift */; };
+		BBFF5F2E2DC3909B00E5677A /* SignUpPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF5F2D2DC3909B00E5677A /* SignUpPageController.swift */; };
+		BBFF5F302DC390C300E5677A /* ForgotPasswordPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF5F2F2DC390C300E5677A /* ForgotPasswordPageController.swift */; };
+		BBFF5F322DC390F500E5677A /* SignUpLogInPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF5F312DC390F500E5677A /* SignUpLogInPageController.swift */; };
+		BBFF5F352DC391CD00E5677A /* AuthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF5F342DC391CD00E5677A /* AuthHeaderView.swift */; };
+		BBFF5F372DC3A86C00E5677A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF5F362DC3A86C00E5677A /* CustomTextField.swift */; };
+		BBFF5F392DC3EB2000E5677A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF5F382DC3EB2000E5677A /* CustomButton.swift */; };
+		BBFF5F3B2DC4F95B00E5677A /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFF5F3A2DC4F95B00E5677A /* TextButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,16 @@
 		BBFF5F192DBD268500E5677A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBFF5F1C2DBD268500E5677A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBFF5F1E2DBD268500E5677A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBFF5F242DBD358000E5677A /* WelcomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageView.swift; sourceTree = "<group>"; };
+		BBFF5F262DBD359900E5677A /* WelcomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageController.swift; sourceTree = "<group>"; };
+		BBFF5F2B2DC3908300E5677A /* LogInPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInPageController.swift; sourceTree = "<group>"; };
+		BBFF5F2D2DC3909B00E5677A /* SignUpPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPageController.swift; sourceTree = "<group>"; };
+		BBFF5F2F2DC390C300E5677A /* ForgotPasswordPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordPageController.swift; sourceTree = "<group>"; };
+		BBFF5F312DC390F500E5677A /* SignUpLogInPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpLogInPageController.swift; sourceTree = "<group>"; };
+		BBFF5F342DC391CD00E5677A /* AuthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHeaderView.swift; sourceTree = "<group>"; };
+		BBFF5F362DC3A86C00E5677A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		BBFF5F382DC3EB2000E5677A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		BBFF5F3A2DC4F95B00E5677A /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBFF5F2A2DBD365200E5677A /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,14 +76,32 @@
 		BBFF5F0F2DBD268400E5677A /* BN Academy */ = {
 			isa = PBXGroup;
 			children = (
+				BBFF5F332DC391B300E5677A /* View */,
 				BBFF5F102DBD268400E5677A /* AppDelegate.swift */,
 				BBFF5F122DBD268400E5677A /* SceneDelegate.swift */,
 				BBFF5F142DBD268400E5677A /* ViewController.swift */,
 				BBFF5F192DBD268500E5677A /* Assets.xcassets */,
 				BBFF5F1B2DBD268500E5677A /* LaunchScreen.storyboard */,
 				BBFF5F1E2DBD268500E5677A /* Info.plist */,
+				BBFF5F242DBD358000E5677A /* WelcomePageView.swift */,
+				BBFF5F262DBD359900E5677A /* WelcomePageController.swift */,
+				BBFF5F2B2DC3908300E5677A /* LogInPageController.swift */,
+				BBFF5F2D2DC3909B00E5677A /* SignUpPageController.swift */,
+				BBFF5F2F2DC390C300E5677A /* ForgotPasswordPageController.swift */,
+				BBFF5F312DC390F500E5677A /* SignUpLogInPageController.swift */,
 			);
 			path = "BN Academy";
+			sourceTree = "<group>";
+		};
+		BBFF5F332DC391B300E5677A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BBFF5F342DC391CD00E5677A /* AuthHeaderView.swift */,
+				BBFF5F362DC3A86C00E5677A /* CustomTextField.swift */,
+				BBFF5F382DC3EB2000E5677A /* CustomButton.swift */,
+				BBFF5F3A2DC4F95B00E5677A /* TextButton.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,6 +120,9 @@
 			dependencies = (
 			);
 			name = "BN Academy";
+			packageProductDependencies = (
+				BBFF5F292DBD365200E5677A /* SnapKit */,
+			);
 			productName = "BN Academy";
 			productReference = BBFF5F0D2DBD268400E5677A /* BN Academy.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +151,9 @@
 				Base,
 			);
 			mainGroup = BBFF5F042DBD268400E5677A;
+			packageReferences = (
+				BBFF5F282DBD365200E5677A /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = BBFF5F0E2DBD268400E5677A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -134,9 +180,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBFF5F322DC390F500E5677A /* SignUpLogInPageController.swift in Sources */,
+				BBFF5F372DC3A86C00E5677A /* CustomTextField.swift in Sources */,
+				BBFF5F252DBD358000E5677A /* WelcomePageView.swift in Sources */,
+				BBFF5F3B2DC4F95B00E5677A /* TextButton.swift in Sources */,
 				BBFF5F152DBD268400E5677A /* ViewController.swift in Sources */,
+				BBFF5F352DC391CD00E5677A /* AuthHeaderView.swift in Sources */,
+				BBFF5F302DC390C300E5677A /* ForgotPasswordPageController.swift in Sources */,
 				BBFF5F112DBD268400E5677A /* AppDelegate.swift in Sources */,
+				BBFF5F272DBD359900E5677A /* WelcomePageController.swift in Sources */,
+				BBFF5F392DC3EB2000E5677A /* CustomButton.swift in Sources */,
+				BBFF5F2C2DC3908300E5677A /* LogInPageController.swift in Sources */,
 				BBFF5F132DBD268400E5677A /* SceneDelegate.swift in Sources */,
+				BBFF5F2E2DC3909B00E5677A /* SignUpPageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +403,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BBFF5F282DBD365200E5677A /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BBFF5F292DBD365200E5677A /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BBFF5F282DBD365200E5677A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BBFF5F052DBD268400E5677A /* Project object */;
 }
